@@ -19,6 +19,8 @@
       --tag-bg: #fdecea;
       --tag-text: #b3261e;
       --chip-bg: #f2f2f4;
+      --if-bg: #fff4d6;
+      --if-text: #8a5a00;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -30,6 +32,8 @@
         --tag-bg: #3a1f1d;
         --tag-text: #ff9c94;
         --chip-bg: #24252a;
+        --if-bg: #3a2e12;
+        --if-text: #ffcf6b;
       }
     }
     * { box-sizing: border-box; }
@@ -93,6 +97,7 @@
       background: var(--tag-bg); color: var(--tag-text);
       vertical-align: 1px;
     }
+    .tag-if { background: var(--if-bg); color: var(--if-text); }
 
     ul.plain { padding-left: 20px; margin: 12px 0 0; }
     ul.plain li { margin: 4px 0; }
@@ -138,7 +143,7 @@
   <div class="pub">
     <div class="title">Deep Learning-Based Sign Language Translation: A Survey and Taxonomy</div>
     <div class="authors"><b>Desen Yuan</b>, Ruili Wang</div>
-    <div class="venue">ACM Computing Surveys (CSUR), 2026 (Just Accepted)</div>
+    <div class="venue">ACM Computing Surveys (CSUR), 2026 <span class="tag tag-if">IF 30.4 · #1 in CS Theory &amp; Methods</span></div>
     <div class="meta"><a href="https://doi.org/10.1145/3844609">Paper</a></div>
   </div>
 
